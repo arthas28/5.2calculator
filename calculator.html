@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易计算器</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css"/>
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+    <!-- 容器-->
+    <div class="wrapper">
+        <!-- 主体-->
+        <div class="calculator">
+            <h2>SIMPLE CALCULATOR</h2>
+            <!-- 计算器数字和符号按钮-->
+            <div>
+                <input class="result" id="result" type="text" value="0" readonly/>
+                <button class="btn" id="btn7" value="7" onclick="getnum(this)">7</button>
+                <button class="btn" id="btn8" value="8" onclick="getnum(this)">8</button>
+                <button class="btn" id="btn9" value="9" onclick="getnum(this)">9</button>
+                <button class="btn btnc" id="btn＋" value="+" onclick="getmark(this)">＋</button>
+                <button class="btn btnc" id="btnSin" value="sin" onclick="getmark(this)">sin</button>
+                <button class="btn" id="btn4" value="4" onclick="getnum(this)">4</button>
+                <button class="btn" id="btn5" value="5" onclick="getnum(this)">5</button>
+                <button class="btn" id="btn6" value="6" onclick="getnum(this)">6</button>
+                <button class="btn btnc" id="btn－" value="-" onclick="getmark(this)">－</button>
+                <button class="btn btnc" id="btnCos" value="cos" onclick="getmark(this)">cos</button>
+                <button class="btn" id="btn1" value="1" onclick="getnum(this)">1</button>
+                <button class="btn" id="btn2" value="2" onclick="getnum(this)">2</button>
+                <button class="btn" id="btn3" value="3" onclick="getnum(this)">3</button>
+                <button class="btn btnc" id="btn＊" value="*" onclick="getmark(this)">＊</button>
+                <button class="btn btnc" id="btnTan" value="tan" onclick="getmark(this)">tan</button>
+                <button class="btn" id="btn0" value="0" onclick="getnum(this)">0</button>
+                <button class="btn" id="btn." value="." onclick="getnum(this)">.</button>
+                <button class="btn btnc" id="btnr" onclick="getreset()">reset</button>
+                <button class="btn btnc" id="btn/" value="/" onclick="getmark(this)">/</button>
+                <button class="btn btnc" id="btnQ" value="√" onclick="getmark(this)">√</button>
+                <button class="btn btnc" id="btn＝" value="=" onclick="getresult(this)">＝</button>
+                <button class="btn btnc" id="btnu" value="u" onclick="getdefeat(this)">负</button>
+                <br/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

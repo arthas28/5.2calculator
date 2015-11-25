@@ -1,0 +1,71 @@
+/*计算器主体样式*/
+.calculator{
+    width: 440px;
+    height: 400px;
+    left: 50%;
+    top: 50%;
+    color: #ffffff;
+    text-align: center;
+    margin: -220px 0 0 -200px;
+    position: absolute;
+    background: deepskyblue;
+}
+
+.calculator div{
+    width: 200px;
+    margin: 30px auto;
+}
+
+h2{
+    top: 10px;
+}
+
+div,button{
+    box-sizing: border-box;
+}
+/*数字按钮样式*/
+.btn{
+    width: 40px;
+    height: 40px;
+    display: block;
+    outline: none;
+    color: #ffffff;
+    float: left;
+    border: 1px solid white;
+    background: deepskyblue;
+}
+
+.btn:hover{
+    background: bisque;
+    color: gray;
+    box-shadow: 2px 2px 2px gray;
+}
+/*符号按钮样式*/
+.btnc{
+    background: #ff8c16;
+}
+
+.btn:active{
+    box-shadow: 2px 2px 2px gray inset;
+}
+/*结果显示div*/
+.result{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    display: block;
+    font-weight: bolder;
+    line-height: 165%;
+    text-align: right;
+    color: gray;
+    margin: 40px auto;
+    background: #ffffff;
+    overflow:hidden;
+    border: none;
+    outline-style: none;
+    padding: 0;
+}
+
+#btn＝{
+    width: 160px;
+}
